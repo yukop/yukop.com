@@ -1,0 +1,33 @@
+
+h1.sitename{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sorts Mill Goudy', serif;
+    width: 480px;
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.box {
+    width: 1000px;
+}
+.unit1 {
+    width: 320px;
+    float: left;
+}
+.unit2 {
+    width: 500px;
+    float: left;
+}
+
+
+
+.box, .clearfix {width:100%;}
+.box:after,
+.clearfix:after{
+    content: ""; 
+    display: block; 
+    clear: both;}
+
