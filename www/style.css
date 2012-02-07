@@ -1,30 +1,37 @@
-
-h1.sitename{
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+.body {
+    width: 960px;
+    margin: 0 auto;
+}
+h1.sitename{
+    margin: 0;
+    padding: 0 0 30px;
     font-family: 'Sorts Mill Goudy', serif;
     width: 480px;
     float: left;
 }
-.right {
-    float: right;
-}
 
 .box {
-    width: 1000px;
 }
-.unit1 {
-    width: 320px;
+.latitude {
+    margin-right: 15px; 
+    width: 695px;
     float: left;
 }
-.unit2 {
-    width: 500px;
+.twitter {
+    width: 250px;
     float: left;
 }
 
 
-
-.box, .clearfix {width:100%;}
+.box, .clearfix {
+    width:100%;
+}
 .box:after,
 .clearfix:after{
     content: ""; 
