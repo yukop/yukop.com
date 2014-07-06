@@ -1,0 +1,152 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	font-family: "Open Sans", san-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.content{
+	margin: 0 auto;
+	padding: 1px 15px;
+	width: 95%;
+	max-width: 960px;
+	background-color: #fff;
+	position: relative;
+}
+header{
+	margin: 15px 0 3em;
+}
+header img{
+	position: absolute;
+	z-index: 1000;
+	top : 15px;
+	right: 0;
+	width: 50%;
+}
+footer{
+	margin: 2em 0 15px;
+}
+
+header,
+footer,
+main,
+.interests,
+.clearfix{
+	overflow: auto;
+}
+
+a, a:link{color: #cc0000;}
+a:visited{color: #990000;}
+a:hover, a:active{color: #ff6666;}
+
+p {
+	margin: 0 0 1em;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	line-height: 1;
+	font-family: 'Gilda Display', serif;
+	text-shadow: 2px 2px 1px #fff, -2px 2px 1px #fff, 2px -2px 1px #fff, -2px -2px 1px #fff;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+	text-shadow: 2px 2px 1px #fff, -2px 2px 1px #fff, 2px -2px 1px #fff, -2px -2px 1px #fff;
+}
+h2 a{text-shadow: none;}
+
+.name{
+	margin: 0 0 3em;
+}
+.intro{
+	margin: 0 0 4em;
+}
+.interest{
+	position: relative;
+	width: 48%;
+}
+.interest img{
+	width: 100%;
+}
+.interest h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.learning {
+	float: left;
+}
+.cooking {
+	float: left;
+}
+.swimming {
+	float: right;
+}
+ul.sociallink,
+ul.sociallink li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.sociallink li{
+	float: left;
+	margin: 0 3px 0;
+	width: 35px;
+	height: 35px;
+	background: url('img/socialicons.png') 0 0 no-repeat;
+}
+ul.sociallink a{
+	display: inline-block;
+	text-indent: -9999px;
+	width: 35px;
+	height: 35px;
+}
+ul.sociallink li.gplus{background-position: 0 0}
+ul.sociallink li.fb{background-position: -40px 0}
+ul.sociallink li.tw{background-position: -80px 0}
+ul.sociallink li.gh{background-position: -120px 0}
+ul.sociallink li.li{background-position: -160px 0}
+ul.sociallink li.in{background-position: -200px 0}
+ul.sociallink li.fl{background-position: -240px 0}
+ul.sociallink li.pi{background-position: -280px 0}
+
+@media only screen and (max-width: 990px) {
+	header img{
+		position: absolute;
+		opacity: 0.6;
+	}
+}
+@media only screen and (max-width: 767px) {
+	header img{
+		position: static;
+		opacity: 1.0;
+		float: right;
+	}
+	.interest{
+		position: relative;
+		width: 95%;
+	}
+  .learning,
+  .cooking,
+  .swimming {
+  	float: none;
+  }
+}
+@media only screen and (max-width: 550px) {
+	header img{
+		position: absolute;
+		width: 50%;
+		opacity: 0.3;
+	}
+}
+
